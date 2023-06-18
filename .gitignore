@@ -1,0 +1,38 @@
+# Ignore node_modules folder
+/api/node_modules/
+/client/node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore environment files (containing sensitive information)
+.env.local
+.env.*.local
+
+# Ignore logs
+*.log
+
+# Ignore dependency lock files
+yarn.lock
+package-lock.json
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore production build files
+*.gz
+*.br
+
+# Ignore test coverage reports
+coverage/
+
+
+# Ignore server-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
